@@ -1,0 +1,17 @@
+Big O Notation --> Upper bound (gets you the worst case complexity)
+Theta Notation --> Average case complexity
+Omega Notation --> Lower Bound
+
+Constant Time - O(1)
+Linear Time - O(n)
+Logarithmic Time - O(log n)
+Quadratic Time - O(n^2)
+Cubic Time - O(n^3)
+
+
+Least to Highest complexity
+
+O(1) -> O(log n) -> O(n) -> O(n log n) -> O(n^2) -> O(n^3) -> O(2^n) -> O(n!)
+
+
+
