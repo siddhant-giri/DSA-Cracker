@@ -1,6 +1,14 @@
+----------------- Three Notations -------------------------------
+
 Big O Notation --> Upper bound (gets you the worst case complexity)
 Theta Notation --> Average case complexity
 Omega Notation --> Lower Bound
+
+
+================================================== TIME COMPLEXITIES ==============================================================
+
+
+------------------ Big O --------------------------
 
 Constant Time - O(1)
 Linear Time - O(n)
@@ -9,9 +17,48 @@ Quadratic Time - O(n^2)
 Cubic Time - O(n^3)
 
 
-Least to Highest complexity
+----------------Least to Highest complexity--------------------------
 
 O(1) -> O(log n) -> O(n) -> O(n log n) -> O(n^2) -> O(n^3) -> O(2^n) -> O(n!)
 
+
+--------- Stuck in TLE --------------------
+
+10^8 operation rule -> Most of the modern machine can perform 10^8 operation per second
+
+Steps to solve TLE
+
+<= [10..11] | O(n!), O(n^6)
+<  [15..18] | O(2^n * n^2)
+<  100      | O(n^4)
+<  400      | O(n^3)
+<  2000     | O(n^2 * log n)
+<  10^4     | O(n^2)
+<  10^6     | O(n log n)
+<  10^8     | O(n), O(log n)
+
+
+================================================== SPACE COMPLEXITIES ==============================================================
+
+checking memory size
+
+int a, int b ---> O(1)
+
+fun(){
+  int arr[5] = {1,2,3,4,5} ------> O(1)
+}
+
+int n;
+cin >> n;
+vector <int> v(n); ---------> O(n)
+
+
+for ( 0 -> n)
+{
+  vector <int> v(n); -------> O(n)
+  for ( 0 -> n ){
+    
+  }
+}
 
 
